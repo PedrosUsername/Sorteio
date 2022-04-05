@@ -1,0 +1,29 @@
+.sorteio {
+    height: 100vh;
+    background-color: #282c34;
+    display: flex;    
+    flex-direction: column;
+}
+.container__sorteio {
+    height: 65%;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.container__resultado {
+    height: 100%;
+    width: 38%;
+    background-color: white;
+}
+
+.container__botao {
+    text-align: center;
+    margin: 16px;
+}
+
+
+span {
+    text-align: center;
+    background-color: red;
+}
