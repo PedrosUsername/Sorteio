@@ -20,7 +20,7 @@ function Characters() {
 
             <div className='container__input'>
                 
-                <label className="input__item" for="name">Escreva o nome de um personagem de Bob Esponja:</label><br />
+                <label className="input__item" for="name">Escreva o nome de um personagem de bob esponja: (ex.: sirigueijo, lula molusco)</label><br />
                 <input onChange={processarInput} className="input__item" type="text" id="name" name="name" /> 
                 
             </div>

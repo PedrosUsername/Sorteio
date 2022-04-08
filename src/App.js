@@ -1,30 +1,51 @@
 import logo from './logo.svg';
 import './App.css';
 
-import ListItem from './exercicio-03/ListItem';
+import Sorteio from './exercicio-01/Sorteio';
 
 /*
 * importar um componente de cada vez
-* aparentemente importar mais de um componente gera conflitos de CSS
+* para evitar conflitos de CSS
 */
 
-// <Sorteio turma={turma}/>
+
+
+// exercicio 01
 // import Sorteio from './exercicio-01/Sorteio';
+//
+// <Sorteio turma={turma}/>
 
-// <Characters />
+
+
+// exercicio 02
 // import Characters from './exercicio-02/Characters';
+//
+// <Characters />
 
+
+
+// exercicio 03
+// import ListItem from './exercicio-03/ListItem';
+// import Formas from './exercicio-03/Formas';
+//
 // <Formas>
 //  <ListItem flavour={bobEsponja}/>
 //  <ListItem flavour={lulaMolusco} />    
 // </Formas>
 
 
+
+// exercicio extra
+// import SuperMan from './exercicio-extra/SuperMan';
+//
+// <SuperMan />
+
+
+
 /*
 * 
 * 
 */
-import Formas from './exercicio-03/Formas';
 
 
 function App() {
@@ -75,15 +96,15 @@ function App() {
   const turma = [
       {
           key: 0,
-          nome: "Rick"
+          nome: "Alan"
       },
       {
           key: 1,
-          nome: "Ricko"
+          nome: "Rocko"
       },
       {
           key: 2,
-          nome: "Ricc"
+          nome: "Makoto"
       },
       {
           key: 3,
@@ -91,7 +112,7 @@ function App() {
       },
       {
           key: 4,
-          nome: "Ash"
+          nome: "Steve"
       }
   ];
 
@@ -100,14 +121,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Sorteio de alunos
+          React Practice Mode
         </p>
       </header>
       <main>
-        <Formas>
-          <ListItem flavour={lulaMolusco}/>
-          <ListItem flavour={bobEsponja}/>
-        </Formas>
+
+        <Sorteio turma={turma}/>
+
       </main>
     </div>
   );
