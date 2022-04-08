@@ -95,25 +95,97 @@ function App() {
   
   const turma = [
       {
-          key: 0,
-          nome: "Alan"
+        key: 0,
+        nome: "Leandro Fernandes Patrício"
       },
       {
-          key: 1,
-          nome: "Rocko"
+        key: 1,
+        nome: "Rithie Natan Carvalhaes Prado"
       },
       {
-          key: 2,
-          nome: "Makoto"
+        key: 2,
+        nome: "Rodrigo Mendes de Souza"
       },
       {
-          key: 3,
-          nome: "James"
+        key: 3,
+        nome: "Rodrigo Ribeiro Rangel"
       },
       {
-          key: 4,
-          nome: "Steve"
-      }
+        key: 4,
+        nome: "Weatherly Moura Albuquerque"
+      },
+      {
+        key: 5,
+        nome: "Cláudio Makoto Miyata"
+      },      
+      {
+        key: 6,
+        nome: "Flavius Marcelino da Costa"
+      },      
+      {
+        key: 7,
+        nome: "Julia da Costa Telles Téo"
+      },      
+      {
+        key: 8,
+        nome: "Murilo Henrique de Oliveira"
+      },      
+      {
+        key: 9,
+        nome: "Pedro H Ro G"
+      },      
+      {
+        key: 10,
+        nome: "DANNIEL DIAS AUGUSTO"
+      },      
+      {
+        key: 11,
+        nome: "Jéssica Silva Pereira Oliveira"
+      },
+      {
+        key: 12,
+        nome: "João Vitor Nunes dos Santos"
+      },
+      {
+        key: 13,
+        nome: "WALLACE GOULART"
+      },
+      {
+        key: 14,
+        nome: "Giuliano Mitteroheffer Morelli"
+      },
+      {
+        key: 15,
+        nome: "Lincoln Rodrigo Pereira de Melo"
+      },
+      {
+        key: 16,
+        nome: "Nicolas da Matta Freire Araujo"
+      },
+      {
+        key: 17,
+        nome: "Victor Guilherme dos Santos Silva"
+      },
+      {
+        key: 18,
+        nome: "Ana Clara Barbeta Vicente"
+      },
+      {
+        key: 19,
+        nome: "Daniel Lopez Giraldo"
+      },
+      {
+        key: 20,
+        nome: "Milan Moreira Cruz"
+      },
+      {
+        key: 21,
+        nome: "Thatyara Alves Gomes"
+      },
+      {
+        key: 22,
+        nome: "Wesley Matheus Sardinha"
+      },
   ];
 
   return (

@@ -8,13 +8,13 @@
     height: 65%;
     display: flex;
     justify-content: space-around;
-    overflow: auto;
 }
 
 .container__resultado {
     height: 100%;
     width: 38%;
     background-color: white;
+    overflow: auto;    
 }
 
 .container__botao {
