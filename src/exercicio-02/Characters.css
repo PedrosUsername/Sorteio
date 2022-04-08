@@ -1,0 +1,27 @@
+.characters {
+    height: 100vh;
+    background-color: #282c34;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+.container__input {
+    height: 10%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: blue;
+}
+
+.input__item {
+    background-color: white;
+    flex: 1;
+}
+
+.container__resultado {
+    height: 75%;
+    width: 65%;
+    background-color: white;
+}
+

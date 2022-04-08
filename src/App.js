@@ -1,6 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+
+/*
+* importar um componente de cada vez
+* aparentemente importar mais de um componente gera conflitos de CSS
+*/
+
+// <Sorteio turma={turma}/>
 import Sorteio from './exercicio-01/Sorteio';
+
+// <Characters />
+// import Characters from './exercicio-02/Characters';
+
+/*
+* 
+* 
+*/
 
 function App() {
   const turma = [
@@ -35,7 +50,7 @@ function App() {
         </p>
       </header>
       <main>
-        <Sorteio turma={turma}/>
+         <Sorteio turma={turma}/>
       </main>
     </div>
   );
